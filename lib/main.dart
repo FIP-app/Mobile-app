@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:proyecto/providers/AuthProvider.dart';
 import 'package:proyecto/providers/TestProvider.dart';
+import 'package:proyecto/routes/landing.dart';
 import 'package:proyecto/routes/load.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:proyecto/firebase_options.dart';
@@ -34,7 +35,7 @@ void main() async {
           ),
           initialRoute: '/',
           routes: {
-            '/': (context) => const Load(),
+            '/': (context) => const LandingPage(),
             '/home': (context) => const Load(),
             '/login': (context) => const Load()
           },
