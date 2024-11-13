@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "64659852344",
+    "project_id": "fip-parking",
+    "storage_bucket": "fip-parking.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64659852344:android:eec9989a7228a1ff7a2acd",
+        "android_client_info": {
+          "package_name": "com.javeriana.proyecto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoo_6sd3M6HStTSX6UPD5myPLMY3oXb4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
